@@ -46,17 +46,13 @@
 #       - name: Run Vitest
 #         run: npm run test:ci
 
-
-
-
 name: Vite React CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
-
+    branches: [main]
 
 jobs:
   ci:
