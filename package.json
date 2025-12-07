@@ -8,7 +8,6 @@
     "prettier": "prettier . --write",
     "prettier:check": "prettier . -c",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:ci": "vitest run --coverage"
   },
@@ -25,7 +24,6 @@
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.5.0",
     "prettier": "^3.7.4",
-    "typescript": "^5.4.0",
     "vite": "^4.3.9",
     "vitest": "^1.6.0"
   }
